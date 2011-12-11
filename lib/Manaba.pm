@@ -4,7 +4,10 @@ use Dancer ':syntax';
 our $VERSION = '0.1';
 
 get '/' => sub {
-    template 'index';
+    template 'index' => {
+        items => [
+        ],
+    };
 };
 
 get '/update/:id?' => sub {
