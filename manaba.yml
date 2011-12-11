@@ -1,0 +1,42 @@
+site:
+  daum:
+    start_url:   http://cartoon.media.daum.net/webtoon/viewer/%s
+    webtoon_url: http://cartoon.media.daum.net/webtoon/viewer/%s
+  nate:
+    start_url:   http://comics.nate.com/webtoon/detail.php?btno=%s
+    webtoon_url: http://comics.nate.com/webtoon/detail.php?btno=%s&bsno=%s
+  naver:
+    start_url:   http://comic.naver.com/webtoon/list.nhn?titleId=%s
+    webtoon_url: http://comic.naver.com/webtoon/detail.nhn?titleId=%s&no=%s
+
+webtoon:
+
+  dieter:
+    name: 다이어터
+    site: daum
+    code: 10362
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U620854C4D5B251707
+
+  last:
+    name: 라스트
+    site: daum
+    code: 10479
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U949E34C4D6B2B9E2D
+
+  kudu:
+    name: 구두
+    site: nate
+    code: 31337
+    image: http://crayondata.cyworld.com/upload/series/31337_m.gif
+
+  noblesse:
+    name: 노블레스
+    site: naver
+    code: 25455
+    image: http://imgcomic.naver.com/webtoon/25455/thumbnail/title_thumbnail_20100614120245_t125x101.jpg
+
+  tal:
+    name: 탈
+    site: naver
+    code: 316911
+    image: http://imgcomic.naver.com/webtoon/316911/thumbnail/title_thumbnail_20110331153319_t125x101.jpg
