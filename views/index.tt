@@ -6,7 +6,18 @@
   <ul>
     [% FOR item IN items %]
       <li>
-        [% item %]
+        [% IF item.last %]
+          <a href="[% item.last | html %]"> <img width=90 height=80 src="[% request.uri_base _ '/images/' _ item.id | html %]" /> </a>
+        [% ELSE %]
+          <img width=90 height=80 src="[% request.uri_base _ '/images/webtoon/' _ item.id | html %]" />
+        [% END %]
+
+        [% item.name | html %]
+        [% IF item.first %]
+          <a href="[% item.first | html %]"> 첫 화 보기 </a>
+        [% ELSE %]
+          첫 화 보기
+        [% END %]
       </li>
     [% END %]
   </ul>
