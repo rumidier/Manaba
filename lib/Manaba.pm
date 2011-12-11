@@ -7,4 +7,24 @@ get '/' => sub {
     template 'index';
 };
 
+get '/update/:id?' => sub {
+    my $id = param('id');
+
+    if ($id) {
+        update($id);
+    }
+    else {
+        update_all();
+    }
+
+    redirect '/';
+};
+
+sub update {
+    my $id = shift;
+}
+
+sub update_all {
+}
+
 true;
