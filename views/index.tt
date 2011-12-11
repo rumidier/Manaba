@@ -42,9 +42,9 @@
 
             <ul>
                 <li>Location: <code>/home/meadow/workspace/github/Manaba</code></li>
-                <li>Template engine: <code><% settings.template %></code></li>
-                <li>Logger: <code><% settings.logger %></code></li>
-                <li>Environment: <code><% settings.environment %></code></li>
+                <li>Template engine: <code>[% settings.template %]</code></li>
+                <li>Logger: <code>[% settings.logger %]</code></li>
+                <li>Environment: <code>[% settings.environment %]</code></li>
             </ul>
 
           </li>
@@ -69,15 +69,15 @@
                 <tbody>
                 <tr>
                     <td>Perl version</td>
-                    <td><tt><% perl_version %></tt></td>
+                    <td><tt>]% perl_version %]</tt></td>
                 </tr>
                 <tr>
                     <td>Dancer version</td>
-                    <td><tt><% dancer_version %></tt></td>
+                    <td><tt>[% dancer_version %]</tt></td>
                 </tr>
                 <tr>
                     <td>Backend</td>
-                    <td><tt><% settings.apphandler %></tt></td>
+                    <td><tt>[% settings.apphandler %]</tt></td>
                 </tr>
                 <tr>
                     <td>Appdir</td>
@@ -85,15 +85,15 @@
                 </tr>
                 <tr>
                     <td>Template engine</td>
-                    <td><tt><% settings.template %></tt></td>
+                    <td><tt>[% settings.template %]</tt></td>
                 </tr>
                 <tr>
                     <td>Logger engine</td>
-                    <td><tt><% settings.logger %></tt></td>
+                    <td><tt>[% settings.logger %]</tt></td>
                 </tr>
                 <tr>
                     <td>Running environment</td>
-                    <td><tt><% settings.environment %></tt></td>
+                    <td><tt>[% settings.environment %]</tt></td>
                 </tr>
                 </tbody>
             </table>
