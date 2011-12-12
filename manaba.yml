@@ -23,11 +23,47 @@ webtoon:
     code: 10479
     image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U949E34C4D6B2B9E2D
 
+  NR:
+    name: NR버프더비스트
+    site: daum
+    code: 9930
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U20D11504D1814FB1A
+
+  taoistland:
+    name: 도사랜드
+    site: daum
+    code: 11790
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/4DF018930612EE0004
+
+  nohurt:
+    name: 해치지 않아
+    site: daum
+    code: 13337
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/4E77E5C703539D0002
+
+  peak:
+    name: PEAK
+    site: daum
+    code: 10986
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U94CAC484DA4ECC906
+
   kudu:
     name: 구두
     site: nate
     code: 31337
     image: http://crayondata.cyworld.com/upload/series/31337_m.gif
+
+  whnonran:
+    name: 흑색논란
+    site: nate
+    code: 31338
+    image: http://crayondata.cyworld.com/upload/series/31338_m.gif
+
+  ant:
+    name: 개미잡이
+    site: nate
+    code: 31852
+    image: http://crayondata.cyworld.com/upload/series/31852_m.gif
 
   noblesse:
     name: 노블레스
@@ -40,3 +76,75 @@ webtoon:
     site: naver
     code: 316911
     image: http://imgcomic.naver.com/webtoon/316911/thumbnail/title_thumbnail_20110331153319_t125x101.jpg
+
+  Igo:
+    name: Igo
+    site: naver
+    code: 318994
+    image: http://imgcomic.naver.com/webtoon/318994/thumbnail/title_thumbnail_20110429111259_t125x101.jpg
+
+  masul:
+    name: 마술사
+    site: naver
+    code: 24965
+    image: http://imgcomic.naver.com/webtoon/24965/thumbnail/title_thumbnail_20110419102834_t125x101.jpg
+
+  doctor:
+    name: 닥터프로스트
+    site: naver
+    code: 293523
+    image: http://imgcomic.naver.com/webtoon/293523/thumbnail/title_thumbnail_20111117163822_t218x120.jpg
+
+  doground:
+    name: 개판
+    site: naver
+    code: 72939
+    image: http://imgcomic.naver.com/webtoon/72939/thumbnail/title_thumbnail_20100928201822_t125x101.jpg
+
+  cupid:
+    name: 순정큐피트
+    site: daum
+    code: 14641
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U034DA594D900ABB07
+
+  romanticoffice:
+    name: 낭만오피스
+    site: daum
+    code: 14549
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/4E769CE60467A10005
+
+  acousticlife:
+    name: 어쿠스틱라이프
+    site: daum
+    code: 13797
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U3502F474D0745391E
+
+  likecat:
+    name: 탐묘인간
+    site: daum
+    code: 14569
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/4EA20BDE0538090001 
+
+  seefeelsogood:
+    name: 보고 있으면 기분 좋아져라
+    site: daum
+    code: 14581
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/4E0AD6C00427AD0002
+
+  daddygoround:
+    name: 대디 고 라운드
+    site: daum
+    code: 14593
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/4E713ED60448C70001
+
+  nonpeople:
+    name: 넌피플
+    site: daum
+    code: 14609
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U545584F4D07444933
+
+  groomingsunday:
+    name: 그루밍 썬데이
+    site: daum
+    code: 14219
+    image: http://i1.cartoon.daumcdn.net/svc/image/U03/cartoon/U14D52544DD85E8C25
