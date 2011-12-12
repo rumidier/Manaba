@@ -4,6 +4,8 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=[% settings.charset %]" />
 <title>Manaba</title>
+
+<link rel="stylesheet" href="[% request.uri_base %]/css/grid.css" />
 <link rel="stylesheet" href="[% request.uri_base %]/css/style.css" />
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
@@ -16,7 +18,8 @@
 <body>
 [% content %]
 <div id="footer">
-Powered by <a href="http://perldancer.org/">Dancer</a> [% dancer_version %]
+Programmed by <a href="http://twitter.com/#!/rumidier">@rumidier</a>, Designed by <a href="http://twitter.com/#!/keedi">@keedi</a> <br />
+Powered by <a href="http://perl.org/">Perl</a> &amp; <a href="http://perldancer.org/">Dancer</a> [% dancer_version %]
 </div>
 </body>
 </html>
