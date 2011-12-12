@@ -64,10 +64,20 @@ get '/' => sub {
         $item;
     } sort keys %$webtoon;
 
+    my $ptr = 0;
+    my @rows;
+    while ( $items[$ptr] ) {
+        my @cols;
+        for my $i ( 0 .. 9 ) {
+            last unless $items[$ptr];
+            push @cols, $items[$ptr];
+            ++$ptr;
+        }
+        push @rows, \@cols;
+    }
+
     template 'index' => {
-        items => [
-            @items,
-        ],
+        rows => \@rows,
     };
 };
 
