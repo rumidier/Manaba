@@ -16,6 +16,7 @@
         <div class="description">
           <span class="title"> [% item.name | html %] </span> - 
           [% IF item.first %] <a href="[% item.first | html %]"> [% END %] 1화 [% IF item.first %] </a> [% END %]
+	  <a href="[% request.uri_base _ '/update/' _ item.id%]">갱신</a>
         </div>
       </div>
     [% END %]
