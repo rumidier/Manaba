@@ -14,9 +14,10 @@
         [% IF item.last %] </a> [% END %]
 
         <div class="description">
-          <span class="title"> [% item.name | html %] </span> - 
+          <span class="title"> [% item.name | html %] </span> <br />
           [% IF item.first %] <a href="[% item.first | html %]"> [% END %] 1화 [% IF item.first %] </a> [% END %]
-	  <a href="[% request.uri_base _ '/update/' _ item.id%]">갱신</a>
+          |
+          <a href="[% request.uri_base _ '/update/' _ item.id %]">Update</a>
         </div>
       </div>
     [% END %]
