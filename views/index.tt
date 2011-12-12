@@ -1,24 +1,26 @@
-<div>
-  <a href="[% request.uri_base %]/update/">만화 목록 갱신하기</a>
-</div>
+<div class="container container_10">
 
-<div>
-  <ul>
-    [% FOR item IN items %]
-      <li>
-        [% IF item.last %]
-          <a href="[% item.last | html %]"> <img width=90 height=80 src="[% request.uri_base _ '/images/webtoon/' _ item.id | html %]" /> </a>
-        [% ELSE %]
-          <img width=90 height=80 src="[% request.uri_base _ '/images/webtoon/' _ item.id | html %]" />
-        [% END %]
+  <h2 class="grid_9"> Manaba </h2>
+  <div class="grid_1"> <p> <a href="[% request.uri_base %]/update/"> update </a> </p> </div>
+  <div class='clear'>&nbsp;</div>
 
-        [% item.name | html %]
-        [% IF item.first %]
-          <a href="[% item.first | html %]"> 첫 화 보기 </a>
-        [% ELSE %]
-          첫 화 보기
-        [% END %]
-      </li>
+  [% FOR cols IN rows %]
+    [% FOR item IN cols %]
+      <div class="grid_1">
+        [% IF item.last %] <a href="[% item.last | html %]"> [% END %]
+        <div class="rounded" style="background:url([% request.uri_base _ '/images/webtoon/' _ item.id | html %]) no-repeat center center; width: 96px; height: 96px;" />;
+          <img class="rounded" src="[% request.uri_base _ '/images/webtoon/' _ item.id | html %]" style="opacity: 0;">
+        </div>
+        [% IF item.last %] </a> [% END %]
+
+        <div class="description">
+          <span class="title"> [% item.name | html %] </span> - 
+          [% IF item.first %] <a href="[% item.first | html %]"> [% END %] 1화 [% IF item.first %] </a> [% END %]
+        </div>
+      </div>
     [% END %]
-  </ul>
+    <div class='clear'>&nbsp;</div>
+  [% END %]
+
 </div>
+
